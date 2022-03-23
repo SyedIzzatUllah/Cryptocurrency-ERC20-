@@ -17,5 +17,25 @@ ERC-20 specifically is a standard which outlines the technical specification of 
    - Metamask Faucet
    - Chainlink Faucet
    - Paradigm Faucet
-   - 
+
 Once you have set all of these up, let's get started!
+
+# Writing the code
+
+Use Remix IDE for writing the smart contract.
+
+reference to LW3.sol
+
+# Compiling
+
+Compile your contract by either pressing Save (CTRL + S on Windows, Command + S on Mac)
+
+# Deploying
+
+Head over to the Deployer tab in Remix.
+
+Select the Injected Web3 environment (ensure you are on the Rinkeby Test Network), and connect your Metamask wallet.
+
+Select the (.sol) contract, and enter values for the constructor arguments _name and _symbol.
+
+Click Transact and approve the transaction from Metamask to deploy your contract!
